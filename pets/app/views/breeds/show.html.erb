@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+
+<div class="jumbotron vertical-center">
+	<div class="container text-center">
+		<h1> <%= @breed.name %> </h1>
+		<p>This is an example of a description of this awesome breed named <%= @breed.name %>.</p>
+	</div>
+</div>
+
+<div class="container text-center">
+<%= link_to 'Edit', edit_breed_path(@breed), class: 'btn btn-default' %> 
+<%= link_to 'Back', breeds_path, class: 'btn btn-primary' %>
+</div>
