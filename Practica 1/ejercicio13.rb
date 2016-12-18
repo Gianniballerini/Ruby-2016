@@ -3,7 +3,9 @@ def saludar
 	name = gets.chomp
 	puts "¡Hola, #{name}!"
 end
+
 saludar
+
 =begin
 	Escribí un script en Ruby que le pida al usuario su nombre y lo utilice para saludarlo imprimiendo en pantalla 
 	¡Hola, <nombre>! . Por ejemplo:
